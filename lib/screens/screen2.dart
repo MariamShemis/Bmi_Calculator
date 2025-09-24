@@ -245,26 +245,26 @@ class _Screen2State extends State<Screen2> {
                     axes: <RadialAxis>[
                       RadialAxis(
                         minimum: 0,
-                        maximum: 90,
+                        maximum: 50,
                         ranges: <GaugeRange>[
                           GaugeRange(
                             startValue: 0,
-                            endValue: 25,
+                            endValue: 18.5,
                             color: Colors.blue,
                           ),
                           GaugeRange(
-                            startValue: 25,
-                            endValue: 60,
+                            startValue: 18.5,
+                            endValue: 25,
                             color: Colors.green,
                           ),
                           GaugeRange(
-                            startValue: 60,
-                            endValue: 80,
+                            startValue: 25,
+                            endValue: 30,
                             color: Colors.orange,
                           ),
                           GaugeRange(
-                            startValue: 80,
-                            endValue: 90,
+                            startValue: 30,
+                            endValue: 50,
                             color: Colors.red,
                           ),
                         ],
