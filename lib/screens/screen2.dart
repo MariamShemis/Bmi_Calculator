@@ -214,7 +214,7 @@ class _Screen2State extends State<Screen2> {
       builder: (context) {
         return AlertDialog(
           backgroundColor: AppColors.blueLightFF,
-          insetPadding: EdgeInsets.all(10), // تحكم في المسافة حوالين الـ Dialog
+          insetPadding: EdgeInsets.all(10), 
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(20),
           ),
@@ -239,13 +239,13 @@ class _Screen2State extends State<Screen2> {
                   textAlign: TextAlign.center,
                 ),
                 SizedBox(
-                  height: 320,
+                  height: 310,
                   width: double.infinity,
                   child: SfRadialGauge(
                     axes: <RadialAxis>[
                       RadialAxis(
                         minimum: 0,
-                        maximum: 50,
+                        maximum: 40,
                         ranges: <GaugeRange>[
                           GaugeRange(
                             startValue: 0,
@@ -264,7 +264,7 @@ class _Screen2State extends State<Screen2> {
                           ),
                           GaugeRange(
                             startValue: 30,
-                            endValue: 50,
+                            endValue: 40,
                             color: Colors.red,
                           ),
                         ],
